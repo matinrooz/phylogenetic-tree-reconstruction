@@ -1,0 +1,15 @@
+{
+  "name": "dna_quick",
+  "description": "Small version of dna_benchmark for a quick check (about a minute).",
+  "seed": 1,
+  "replicates": 2,
+  "parsimony_starts": 2,
+  "methods": ["upgma", "nj", "parsimony", "ml"],
+  "base": {"n_taxa": 10, "n_sites": 300, "tree_height": 0.3, "clock_sigma": 0.5},
+  "sweeps": {
+    "n_taxa": [6, 10],
+    "n_sites": [100, 300],
+    "tree_height": [0.1, 0.5],
+    "clock_sigma": [0.0, 1.0]
+  }
+}

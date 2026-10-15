@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+# scratch output from the CLI examples
+out/
+# the quick benchmark configs write here; the full results are committed
+results/dna_quick/
+results/lineage_quick/
+results/figures_quick/
+# optional phangorn cross-check: local R library
+crosscheck/rlib/
+crosscheck/work/

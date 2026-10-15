@@ -1,0 +1,106 @@
+dataset,check,ours,reference,difference
+ds1,JC69 distance matrix (max abs diff),,,5.55e-16
+ds1,UPGMA tree vs R (RF; max path-length diff),,,RF=0; 5.32e-11
+ds1,NJ tree vs R (RF; max path-length diff),,,RF=0; 2.75e-11
+ds1,NJ allow_negative=True vs R (RF; max path-length diff),,,RF=0; 2.75e-11
+ds1,"Fitch score, true tree",210,210,0
+ds1,"logL given lengths, true tree",-1305.984194,-1305.98419437933,2.73e-12
+ds1,"logL optimised lengths, true tree",-1298.5468,-1298.54665019689,-0.000189
+ds1,"Fitch score, upgma tree",210,210,0
+ds1,"logL given lengths, upgma tree",-1308.884647,-1308.88464743642,6.82e-13
+ds1,"logL optimised lengths, upgma tree",-1298.5468,-1298.54665019689,-0.000189
+ds1,"Fitch score, nj tree",210,210,0
+ds1,"logL given lengths, nj tree",-1299.940085,-1299.94008536459,-2.05e-12
+ds1,"logL optimised lengths, nj tree",-1298.5465,-1298.5463961936,-0.000133
+ds1,"Fitch score, parsimony tree",209,209,0
+ds1,"logL given lengths, parsimony tree",-1355.710373,-1355.71037349496,2.05e-12
+ds1,"logL optimised lengths, parsimony tree",-1302.3499,-1302.34979474485,-0.000132
+ds1,"Fitch score, ml tree",210,210,0
+ds1,"logL given lengths, ml tree",-1298.546528,-1298.54652849327,3.41e-12
+ds1,"logL optimised lengths, ml tree",-1298.5465,-1298.54639617317,-0.000132
+ds1,best parsimony score (our search vs pratchet),209,209,0; RF=0
+ds1,best logL (our NNI search vs optim.pml NNI),-1298.5465,-1298.54639617487,-0.000132; RF=0
+ds2,JC69 distance matrix (max abs diff),,,5.55e-16
+ds2,UPGMA tree vs R (RF; max path-length diff),,,RF=0; 7.94e-11
+ds2,NJ tree vs R (RF; max path-length diff),,,RF=0; 0.000526
+ds2,NJ allow_negative=True vs R (RF; max path-length diff),,,RF=0; 8.98e-11
+ds2,"Fitch score, true tree",970,970,0
+ds2,"logL given lengths, true tree",-4406.040273,-4406.0402725166,-3.46e-11
+ds2,"logL optimised lengths, true tree",-4394.6795,-4394.67884717452,-0.000676
+ds2,"Fitch score, upgma tree",990,990,0
+ds2,"logL given lengths, upgma tree",-4420.690765,-4420.6907646367,2.36e-11
+ds2,"logL optimised lengths, upgma tree",-4410.4805,-4410.48033574272,-0.000202
+ds2,"Fitch score, nj tree",970,970,0
+ds2,"logL given lengths, nj tree",-4395.611290,-4395.61129032589,-2.27e-11
+ds2,"logL optimised lengths, nj tree",-4394.6788,-4394.67884717833,6.18e-11
+ds2,"Fitch score, parsimony tree",970,970,0
+ds2,"logL given lengths, parsimony tree",-4395.611290,-4395.61129032589,-2.27e-11
+ds2,"logL optimised lengths, parsimony tree",-4394.6788,-4394.67884717833,6.18e-11
+ds2,"Fitch score, ml tree",970,970,0
+ds2,"logL given lengths, ml tree",-4394.679492,-4394.6794918601,-4.55e-12
+ds2,"logL optimised lengths, ml tree",-4394.6795,-4394.67884648715,-0.000645
+ds2,best parsimony score (our search vs pratchet),970,970,0; RF=2
+ds2,best logL (our NNI search vs optim.pml NNI),-4394.6795,-4394.67883648716,-0.000655; RF=0
+ds3,JC69 distance matrix (max abs diff),,,4.88e-15
+ds3,UPGMA tree vs R (RF; max path-length diff),,,RF=0; 7.49e-11
+ds3,NJ tree vs R (RF; max path-length diff),,,RF=0; 0.000735
+ds3,NJ allow_negative=True vs R (RF; max path-length diff),,,RF=0; 7.95e-11
+ds3,"Fitch score, true tree",1486,1486,0
+ds3,"logL given lengths, true tree",-6817.328493,-6817.32849344365,-3.18e-11
+ds3,"logL optimised lengths, true tree",-6800.6436,-6800.64281126449,-0.000825
+ds3,"Fitch score, upgma tree",1481,1481,0
+ds3,"logL given lengths, upgma tree",-6894.629670,-6894.62966971907,-8.73e-11
+ds3,"logL optimised lengths, upgma tree",-6800.5651,-6800.5643930885,-0.000664
+ds3,"Fitch score, nj tree",1486,1486,0
+ds3,"logL given lengths, nj tree",-6811.016738,-6811.01673762711,-1.36e-11
+ds3,"logL optimised lengths, nj tree",-6806.6566,-6806.65618523195,-0.000412
+ds3,"Fitch score, parsimony tree",1475,1475,0
+ds3,"logL given lengths, parsimony tree",-14098.279957,-14098.2799569215,-3.46e-11
+ds3,"logL optimised lengths, parsimony tree",-6800.6340,-6800.63337140157,-0.000598
+ds3,"Fitch score, ml tree",1481,1481,0
+ds3,"logL given lengths, ml tree",-6800.564993,-6800.56499278462,-2.73e-12
+ds3,"logL optimised lengths, ml tree",-6800.5650,-6800.56438869854,-0.000603
+ds3,best parsimony score (our search vs pratchet),1475,1475,0; RF=0
+ds3,best logL (our NNI search vs optim.pml NNI),-6800.5650,-6800.5643888042,-0.000603; RF=0
+ds4,JC69 distance matrix (max abs diff),,,5.11e-15
+ds4,UPGMA tree vs R (RF; max path-length diff),,,RF=0; 1.69e-10
+ds4,NJ tree vs R (RF; max path-length diff),,,RF=0; 1.05e-10
+ds4,NJ allow_negative=True vs R (RF; max path-length diff),,,RF=0; 1.05e-10
+ds4,"Fitch score, true tree",4943,4943,0
+ds4,"logL given lengths, true tree",-19639.219915,-19639.2199152119,4.37e-11
+ds4,"logL optimised lengths, true tree",-19622.6506,-19622.6506465196,6.66e-06
+ds4,"Fitch score, upgma tree",5074,5074,0
+ds4,"logL given lengths, upgma tree",-19921.374990,-19921.3749898064,-1.86e-10
+ds4,"logL optimised lengths, upgma tree",-19785.4083,-19785.4078091673,-0.000518
+ds4,"Fitch score, nj tree",4962,4962,0
+ds4,"logL given lengths, nj tree",-19638.309368,-19638.3093681678,8.37e-11
+ds4,"logL optimised lengths, nj tree",-19625.4986,-19625.4986099438,-3.28e-05
+ds4,"Fitch score, parsimony tree",4926,4926,0
+ds4,"logL given lengths, parsimony tree",-19634.384477,-19634.3844765011,2.18e-11
+ds4,"logL optimised lengths, parsimony tree",-19622.5800,-19622.5799611961,8.28e-06
+ds4,"Fitch score, ml tree",4928,4928,0
+ds4,"logL given lengths, ml tree",-19622.541593,-19622.5415932539,2.55e-11
+ds4,"logL optimised lengths, ml tree",-19622.5416,-19622.5415920217,-1.08e-09
+ds4,best parsimony score (our search vs pratchet),4926,4926,0; RF=0
+ds4,best logL (our NNI search vs optim.pml NNI),-19622.5416,-19622.5415956642,3.64e-06; RF=0
+ds5,JC69 distance matrix (max abs diff),,,5.33e-15
+ds5,UPGMA tree vs R (RF; max path-length diff),,,RF=0; 1.25e-10
+ds5,NJ tree vs R (RF; max path-length diff),,,RF=0; 0.00739
+ds5,NJ allow_negative=True vs R (RF; max path-length diff),,,RF=0; 8.8e-11
+ds5,"Fitch score, true tree",390,390,0
+ds5,"logL given lengths, true tree",-1506.236428,-1506.23642768697,-1.93e-11
+ds5,"logL optimised lengths, true tree",-1499.1957,-1499.19564219081,-6.99e-05
+ds5,"Fitch score, upgma tree",389,389,0
+ds5,"logL given lengths, upgma tree",-1504.049438,-1504.04943792056,-2.96e-12
+ds5,"logL optimised lengths, upgma tree",-1498.4119,-1498.41188409044,-6.46e-05
+ds5,"Fitch score, nj tree",389,389,0
+ds5,"logL given lengths, nj tree",-1500.647539,-1500.64753892667,-7.96e-12
+ds5,"logL optimised lengths, nj tree",-1498.4119,-1498.41188409134,-2.91e-06
+ds5,"Fitch score, parsimony tree",389,389,0
+ds5,"logL given lengths, parsimony tree",-1500.647539,-1500.64753892667,-7.96e-12
+ds5,"logL optimised lengths, parsimony tree",-1498.4119,-1498.41188409134,-2.91e-06
+ds5,"Fitch score, ml tree",389,389,0
+ds5,"logL given lengths, ml tree",-1498.411948,-1498.41194821298,4.55e-12
+ds5,"logL optimised lengths, ml tree",-1498.4119,-1498.41188403137,-6.37e-05
+ds5,best parsimony score (our search vs pratchet),389,389,0; RF=0
+ds5,best logL (our NNI search vs optim.pml NNI),-1498.4119,-1498.4118840399,-6.37e-05; RF=0

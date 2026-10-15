@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phylo-from-scratch"
+version = "0.1.0"
+description = "UPGMA, neighbor-joining, parsimony and maximum likelihood written from scratch, with simulation benchmarks and a CRISPR lineage-tracing extension."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Matin Roozbahani"}]
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.8",
+  "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+phylo = "phylo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning:matplotlib"]

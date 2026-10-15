@@ -1,0 +1,14 @@
+{
+  "name": "lineage_quick",
+  "description": "Small version of lineage_benchmark for a quick check.",
+  "seed": 2,
+  "replicates": 2,
+  "parsimony_starts": 1,
+  "methods": ["parsimony", "nj", "upgma", "random"],
+  "base": {"n_generations": 5, "n_cells": 16, "n_sites": 10, "edit_rate": 0.1,
+           "n_outcomes": 20, "outcome_skew": 1.5, "dropout_rate": 0.1},
+  "sweeps": {
+    "edit_rate": [0.05, 0.2],
+    "dropout_rate": [0.0, 0.3]
+  }
+}

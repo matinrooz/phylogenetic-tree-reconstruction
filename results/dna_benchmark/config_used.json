@@ -1,0 +1,49 @@
+{
+  "name": "dna_benchmark",
+  "description": "UPGMA, NJ, parsimony and ML on JC69 data simulated on Yule trees. One factor is varied at a time around the base condition.",
+  "seed": 20261014,
+  "replicates": 10,
+  "parsimony_starts": 5,
+  "methods": [
+    "upgma",
+    "nj",
+    "parsimony",
+    "ml"
+  ],
+  "base": {
+    "n_taxa": 16,
+    "n_sites": 500,
+    "tree_height": 0.3,
+    "clock_sigma": 0.5
+  },
+  "sweeps": {
+    "n_taxa": [
+      8,
+      16,
+      24,
+      32,
+      48
+    ],
+    "n_sites": [
+      100,
+      250,
+      500,
+      1000,
+      2000
+    ],
+    "tree_height": [
+      0.05,
+      0.1,
+      0.3,
+      0.6,
+      1.0,
+      1.5
+    ],
+    "clock_sigma": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ]
+  }
+}

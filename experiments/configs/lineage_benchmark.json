@@ -1,0 +1,16 @@
+{
+  "name": "lineage_benchmark",
+  "description": "Simulated CRISPR lineage tracing: 7 synchronous generations (128 cells), 32 cells sampled. One factor varied at a time.",
+  "seed": 20261015,
+  "replicates": 10,
+  "parsimony_starts": 3,
+  "methods": ["parsimony", "nj", "upgma", "random"],
+  "base": {"n_generations": 7, "n_cells": 32, "n_sites": 20, "edit_rate": 0.05,
+           "n_outcomes": 30, "outcome_skew": 1.5, "dropout_rate": 0.1},
+  "sweeps": {
+    "edit_rate": [0.01, 0.02, 0.05, 0.1, 0.2, 0.4],
+    "n_sites": [5, 10, 20, 40, 80],
+    "dropout_rate": [0.0, 0.1, 0.2, 0.3, 0.5],
+    "outcome_skew": [0.0, 1.0, 1.5, 2.0, 3.0]
+  }
+}
