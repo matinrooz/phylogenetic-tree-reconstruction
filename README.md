@@ -12,8 +12,7 @@ repository. NumPy and SciPy are only used for arrays and for one 1-D
 optimiser (Brent's method).
 
 The project started from the Bioinformatics Algorithms course at the
-University of Basel (HS 2023), where these methods were introduced with
-existing R packages. None of the course code is used here.
+University of Basel (HS 2023)
 
 ---
 
