@@ -62,8 +62,8 @@ see where they work and where the assumptions break.
 Python 3.9 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/phylogenetics-from-scratch.git
-cd phylogenetics-from-scratch
+git clone https://github.com/matinrooz/phylogenetic-tree-reconstruction.git
+cd phylogenetic-tree-reconstruction
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install --upgrade pip          # older pip (e.g. 21.x) cannot do editable installs from pyproject.toml
