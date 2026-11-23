@@ -25,20 +25,14 @@ condition, 200 datasets in total.
 
 ![RF distance to the true tree](figures/dna_rf_distance.png)
 
-Normalised Robinson-Foulds distance to the true tree when the molecular clock is violated
-more and more (lower is better):
-
-| clock violation (rate SD) | 0.0 | 0.25 | 0.5 | 1.0 |
-|---|---|---|---|---|
-| UPGMA | 0.077 | 0.169 | 0.200 | 0.392 |
-| neighbor-joining | 0.085 | 0.069 | 0.069 | 0.123 |
-| parsimony | 0.069 | 0.077 | 0.046 | 0.131 |
-| maximum likelihood | 0.069 | 0.077 | 0.054 | 0.085 |
+The clearest effect is the clock violation, measured as the normalised Robinson-Foulds
+distance to the true tree (lower is better). With a strict clock all four methods are close,
+between 0.069 and 0.085. When the rates vary strongly between lineages (SD 1.0), UPGMA's
+error goes up to 0.392, while maximum likelihood stays at 0.085, neighbor-joining at 0.123
+and parsimony at 0.131.
 
 Exact tree recovered (RF = 0) over all 200 datasets: UPGMA 17, NJ 54, parsimony 66, ML 67.
 
-- UPGMA is fine with a strict clock but its error grows to 0.39 when rates differ between
-  lineages, as theory says it should.
 - Longer alignments help ML most: from 0.200 at 100 sites to 0.023 at 1000 sites.
 - At high divergence the JC69 distances saturate and NJ gets worst (0.315).
 - The distance methods take about a millisecond per tree, ML about 7 seconds on average.
