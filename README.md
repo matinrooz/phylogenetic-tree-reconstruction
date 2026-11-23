@@ -1,5 +1,9 @@
 # Phylogenetics from scratch
 
+**What:** UPGMA, neighbor-joining, maximum parsimony and maximum likelihood written from scratch, benchmarked on simulated data where the true tree is known.  
+**Result:** Maximum likelihood recovered the exact tree in 67 of 200 datasets, UPGMA in 17; UPGMA breaks as soon as rates differ between lineages.  
+**Stack:** Python, NumPy, SciPy, pytest (99 tests)
+
 UPGMA, neighbor-joining, maximum parsimony and maximum likelihood, written
 from the ground up in Python. The package also includes a benchmark on
 simulated data with known true trees, and a small experimental module for
